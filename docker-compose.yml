@@ -1,6 +1,5 @@
-# traffic-docker-tool
+version: '3.7'
 
-```bash
 services:
   prometheus:
     image: prom/prometheus:latest
@@ -27,4 +26,3 @@ services:
 volumes:
   prometheus_data:
   grafana_data:
-```
